@@ -91,6 +91,9 @@ header nav ul li {
 
 .foto {
     width: 250px;
+    border-radius: 50%;
+    border-color: #1594dd;
+   
 }
 
 /* Estilo do Topo */
