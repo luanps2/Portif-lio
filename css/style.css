@@ -89,14 +89,9 @@ header nav ul li {
     padding: 0 40px;
 }
 
-
-
-
 .foto {
     width: 250px;
 }
-
-
 
 /* Estilo do Topo */
 
@@ -218,4 +213,22 @@ section.sobre .flex {
     margin: 0 5px;
     transition: .2s;
     
+}
+
+/* ESTILO PORTIFÓLIO */
+
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d; /* 1-horizontal 2-vertical 3-desfoque 4-espalhamento da sombra  5-cor*/
+}
+
+section.portifolio .flex{
+justify-content: space-around;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #1594dd;
+    background-size: cover;
 }
